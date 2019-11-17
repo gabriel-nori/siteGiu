@@ -1,0 +1,101 @@
+@import url("./Helvetica.css");
+@import url("./topBar.css");
+*{
+    padding: 0;
+    font-family: myHelvetica;
+}
+#leftBar{
+    position: absolute;
+    left: 0;
+    right: 200px;
+    top: 31px;
+    bottom: 0px;
+}
+#leftBarHolder{
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    bottom: 200px;
+    background-image: url("../Media/Images/Background/Home/Logo_Pessoal.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#coletaneaHolder{
+    position: relative;
+    left: 0;
+    margin-top: 150px;
+}
+#underHolder{
+    position: relative;
+    right: 0;
+    margin-top: 20px;
+}
+.coletaneaText{
+    font-weight: bolder;
+    font-size: 170px;
+    text-align: left;
+}
+.underText{
+    position: absolute;
+    text-align: left;
+    right: 0;
+    font-size: 36px;
+}
+
+#projectName{
+    position: absolute;
+    right: 220px;
+    top: 31px;
+    font-size: 50px;
+    font-weight: bolder;
+    transform: rotate(270deg);
+    transform-origin: right bottom 0;
+}
+
+#rightBar{
+    position: absolute;
+    right: 10px;
+    top: 31px;
+    bottom: 0;
+    width: 200px;
+}
+#menu{
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    font-size: 130px;
+    overflow-y: scroll;
+    /*font-size: 72px;*/
+    font-weight: bolder;
+    text-align: right;
+    width: 100%;
+}
+#menu a{
+    text-decoration: none;
+    color: #000;
+}
+::-webkit-scrollbar{
+    width: 0;
+}
+
+.selected{
+    visibility: visible;
+}
+
+.selectedItem{
+    background: #FF0;
+    width: 200px;
+    text-align: left;
+}
+.menuItem{
+    background: #FFF;
+}
+
+#menu01:hover,#menu02:hover,#menu03:hover,#menu04:hover,#menu05:hover,#menu06:hover,#menu07:hover,#menu08:hover,#menu09:hover,#menu10:hover,#menu11:hover{
+    background: #FCB1CC;
+    /*color: #FFF;*/
+    width: 200px;
+    text-align: left;
+    cursor: pointer;
+}

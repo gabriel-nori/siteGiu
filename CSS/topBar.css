@@ -1,0 +1,16 @@
+#topBar{
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: 0;
+    height: 30px;
+    font-size: 25px;
+}
+.topBarName{
+    margin-left: 40px;
+    cursor: pointer;
+}
+.topBarContact{
+    margin-left: 40px;
+    cursor: pointer;
+}

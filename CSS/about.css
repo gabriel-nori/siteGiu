@@ -41,27 +41,27 @@
     float: right;
     width: 100%;
     padding-bottom: 0;
-    background: #FF0;
 }
 #img1, #img3, #img5{
-    background: #F0F;
     float: right;
     width: calc(50% - 10px);
-    padding-bottom: calc(50% - 10px);
+    padding-bottom: calc(50% - 5px);
     margin-left: 5px;
-    margin-top: 10px;
+    margin-bottom: 10px;
 }
 #img1{
     margin-top: 0;
 }
-#img2, #img4{
-    background: #F0F;
+#img2, #img4, #img6{
     float: left;
     width: calc(50% - 10px);
-    padding-bottom: calc(50% - 10px);
+    padding-bottom: calc(50% - 5px);
     margin-right: 5px;
-    margin-top: 10px;
+    margin-bottom: 10px;
     clear: both;
+}
+#img1, #img2, #img3, #img4, #img5, #img6{
+    background-color: #FCB1CC;
 }
 #bottomText{
     width: 100%;

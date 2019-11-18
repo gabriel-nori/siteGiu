@@ -60,6 +60,9 @@
     margin-top: 10px;
     clear: both;
 }
+#img1, #img2, #img3, #img4, #img5{
+    background-color: #FCB1CC;
+}
 #bottomText{
     width: 100%;
     text-align: right;

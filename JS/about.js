@@ -17,15 +17,17 @@ function startFunction(){
     changeImages();
 }
 function changeImages(){
-    var number;
-    for(i=1; i<img.length+1; i++){
-        number = Math.floor(Math.random() * 6) + 1;
-        if(!imageNumbers.includes(number)){
-            imageNumbers.push(number);
+    var number = Math.floor(Math.random() * 5);
+    for(i=0; i<img.length; i++){
+        img[i].style.background = "url(" + imagesLink[number] + ")";
+        img[i].style.backgroundRepeat = "no-repeat";
+        img[i].style.backgroundSize = "contain";
+        img[i].style.backgroundPosition = "center center";
+        if(number >= 5){
+            number = 0;
         }
         else{
-            number = Math.floor(Math.random() * 6) + 1;
-            imageNumbers.push(number);
+            number++;
         }
     }
 }

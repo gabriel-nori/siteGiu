@@ -43,7 +43,6 @@
     padding-bottom: 0;
 }
 #img1, #img3, #img5{
-    background: #F0F;
     float: right;
     width: calc(50% - 10px);
     padding-bottom: calc(50% - 10px);

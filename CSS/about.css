@@ -21,25 +21,50 @@
 #bottomCoiso{
     position: relative;
     margin-top: 240px;
+    margin-left: 0;
+    margin-right: 0;
 }
 #left{
-    position: absolute;
-    top: 30px;
-    left: 100px;
+    margin-top: 30px;
+    margin-left: 100px;
+    float: left;
     width: calc(50% - 110px);
-    background: #F0F;
-    clear: both;
 }
 #right{
-    position: absolute;
-    top: 30px;
-    right: 100px;
+    margin-top: 30px;
+    margin-right: 100px;
+    float: right;
     width: calc(50% - 110px);
     background: #FF0;
 }
-#img1{
-    position: relative;
+#firstImage{
+    float: right;
+    width: 100%;
+    padding-bottom: 0;
+    background: #FF0;
+}
+#img1, #img3, #img5{
     background: #F0F;
+    float: right;
     width: calc(50% - 10px);
-    padding-bottom: 100%;
+    padding-bottom: calc(50% - 10px);
+    margin-left: 5px;
+    margin-top: 10px;
+}
+#img1{
+    margin-top: 0;
+}
+#img2, #img4{
+    background: #F0F;
+    float: left;
+    width: calc(50% - 10px);
+    padding-bottom: calc(50% - 10px);
+    margin-right: 5px;
+    margin-top: 10px;
+    clear: both;
+}
+#bottomText{
+    width: 100%;
+    text-align: right;
+    float: right;
 }

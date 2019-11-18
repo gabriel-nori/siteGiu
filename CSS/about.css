@@ -54,7 +54,6 @@
     margin-top: 0;
 }
 #img2, #img4{
-    background: #F0F;
     float: left;
     width: calc(50% - 10px);
     padding-bottom: calc(50% - 10px);

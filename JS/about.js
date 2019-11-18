@@ -5,7 +5,8 @@ var
         photosDirectory + "img2.jpeg",
         photosDirectory + "img3.jpeg",
         photosDirectory + "img4.jpeg",
-        photosDirectory + "img5.jpeg"
+        photosDirectory + "img5.jpeg",
+        photosDirectory + "img6.jpeg"
     ],
     img = [], //Images object array. this is where we should change the images
     imageNumbers = [],

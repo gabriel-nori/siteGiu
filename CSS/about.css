@@ -1,1 +1,45 @@
 @import url("./All.css");
+
+#main{
+    position: absolute;
+    top: 40px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow-x: hidden;
+}
+#name{
+    position: relative;
+    top: 250px;
+    left: 0;
+    right: 0;
+}
+#nameContainer{
+    margin-left: 100px;
+    font-size: 150px;
+}
+#bottomCoiso{
+    position: relative;
+    margin-top: 240px;
+}
+#left{
+    position: absolute;
+    top: 30px;
+    left: 100px;
+    width: calc(50% - 110px);
+    background: #F0F;
+    clear: both;
+}
+#right{
+    position: absolute;
+    top: 30px;
+    right: 100px;
+    width: calc(50% - 110px);
+    background: #FF0;
+}
+#img1{
+    position: relative;
+    background: #F0F;
+    width: calc(50% - 10px);
+    padding-bottom: 100%;
+}

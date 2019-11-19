@@ -1,10 +1,9 @@
+var topBar = import("./topBar.js");
+
 var
 homeIcon;
 
 function startFunction(){
-    homeIcon = document.getElementById("topBarHome");
-    homeIcon.onclick = function(){
-        window.location.href = "../index.html";
-    }
+    topBar.setClick();
 }
 document.addEventListener("DOMContentLoaded", startFunction);

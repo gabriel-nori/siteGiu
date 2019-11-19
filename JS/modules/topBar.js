@@ -1,6 +1,4 @@
-export {setClick};
-export {setClick as default};
-function setTopBarClick(){
+export function setTopBarClick(){
     homeIcon = document.getElementById("topBarHome");
     homeIcon.onclick = function(){
         window.location.href = "../index.html";

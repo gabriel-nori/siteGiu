@@ -42,7 +42,7 @@
 
 #projectName{
     position: absolute;
-    right: 220px;
+    right: 320px;
     top: 31px;
     font-size: 50px;
     font-weight: bolder;
@@ -54,8 +54,8 @@
     position: absolute;
     right: 10px;
     top: 31px;
-    bottom: 0;
-    width: 200px;
+    bottom: 31px;
+    width: 300px;
 }
 #menu{
     position: absolute;
@@ -90,10 +90,43 @@
     background: #FFF;
 }
 
-#menu01:hover,#menu02:hover,#menu03:hover,#menu04:hover,#menu05:hover,#menu06:hover,#menu07:hover,#menu08:hover,#menu09:hover,#menu10:hover,#menu11:hover{
+#menu01:hover,#menu02:hover,#menu03:hover,#menu04:hover,#menu05:hover,#menu06:hover,#menu07:hover,#menu08:hover,#menu09:hover,#menu10:hover{
     background: #FCB1CC;
     /*color: #FFF;*/
-    width: 200px;
+    width: 300px;
     text-align: left;
     cursor: pointer;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    color: #FFF;
+}
+#menu01:hover{
+    background-image: url("../Media/Images/Home/ProjectsIcons/aTUA.png");
+}
+#menu02:hover{
+    background-image: url("../Media/Images/Home/ProjectsIcons/coletaneaafricanos.png");
+}
+#menu03:hover{
+    background-image: url("../Media/Images/Home/ProjectsIcons/looping.png"); /*mudar*/
+}
+#menu04:hover{
+    background-image: url("../Media/Images/Home/ProjectsIcons/looping.png");
+}
+#menu05:hover{
+    background-image: url("../Media/Images/Home/ProjectsIcons/whatsfake.png");
+}
+#menu06:hover{
+    background-image: url("../Media/Images/Home/ProjectsIcons/looping.png"); /*mudar*/
+}
+#menu07:hover{
+    background-image: url("../Media/Images/Home/ProjectsIcons/submarine.png");
+}
+#menu08:hover{
+    background-image: url("../Media/Images/Home/ProjectsIcons/temoso.png");
+}
+#menu09:hover{
+    background-image: url("../Media/Images/Home/ProjectsIcons/nise.png");
+}
+#menu10:hover{
+    background-image: url("../Media/Images/Home/ProjectsIcons/looping.png"); /*mudar*/
 }

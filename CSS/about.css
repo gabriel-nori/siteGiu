@@ -92,7 +92,9 @@
     float: left;
     background-repeat: no-repeat;
     background-size: contain;
-    margin-right: 40px;
+    margin-right: 20px;
+    border-color: #000;
+    border-width: 1px;
 }
 #behance{
     background-image: url("../Media/Images/Icon/behance_icon.png");
@@ -105,4 +107,16 @@
 }
 #behance:hover, #linkedin:hover, #facebook:hover{
     cursor: pointer;
+}
+::-webkit-scrollbar{
+    width: 5px;
+    border-radius: 15%;
+    background-color: #AAA;
+    scroll-margin-bottom: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
 }

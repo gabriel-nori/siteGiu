@@ -9,13 +9,37 @@ var
         photosDirectory + "img6.jpeg"
     ],
     img = [], //Images object array. this is where we should change the images
-    imageNumbers = [],
-    time = 5000; //Time, in milliseconds, to change the images
+    time = 5000, //Time, in milliseconds, to change the images
+    homeIcon,
+    behanceIcon,
+    linkedinIcon,
+    facebookIcon,
+    behanceLink = "https://www.behance.net/giuliagolfari",
+    linkedinLink = "https://www.linkedin.com/in/giulia-costa-e-silva-golfari-1aa73516b/",
+    facebookLink = "https://web.facebook.com/profile.php?id=100010339602530";
+
 function startFunction(){
     for(i=1; i<7; i++){
         img.push(document.getElementById("img"+i));
     }
     changeImages();
+    homeIcon = document.getElementById("topBarHome");
+    behanceIcon = document.getElementById("behance");
+    linkedinIcon = document.getElementById("linkedin");
+    facebookIcon = document.getElementById("facebook");
+
+    homeIcon.onclick = function(){
+        window.location.href = "../index.html";
+    }
+    behanceIcon.onclick = function(){
+        window.open(behanceLink, "_blank");
+    }
+    linkedinIcon.onclick = function(){
+        window.open(linkedinLink, "_blank");
+    }
+    facebookIcon.onclick = function(){
+        window.open(facebookLink, "_blank");
+    }
 }
 function changeImages(){
     var number = Math.floor(Math.random() * 5);

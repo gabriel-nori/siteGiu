@@ -7,6 +7,7 @@
     right: 0;
     bottom: 0;
     overflow-x: hidden;
+    font-size: 30px;
 }
 #name{
     position: relative;
@@ -35,7 +36,12 @@
     margin-right: 100px;
     float: right;
     width: calc(50% - 110px);
-    background: #FF0;
+}
+#rightBottom{
+    margin-top: 100px;
+    width: 100%;
+    clear: both;
+    float: left;
 }
 #firstImage{
     float: right;
@@ -63,8 +69,40 @@
 #img1, #img2, #img3, #img4, #img5, #img6{
     background-color: #FCB1CC;
 }
+#img6{
+    margin-bottom: 0;
+}
 #bottomText{
     width: 100%;
     text-align: right;
     float: right;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+#social{
+    width: calc(50% - 10px);
+    clear: both;
+    float: left;
+    margin-top: 40px;
+}
+#behance, #linkedin, #facebook{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    float: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 40px;
+}
+#behance{
+    background-image: url("../Media/Images/Icon/behance_icon.png");
+}
+#linkedin{
+    background-image: url("../Media/Images/Icon/linkedin_icon.png");
+}
+#facebook{
+    background-image: url("../Media/Images/Icon/facebook_icon.png");
+}
+#behance:hover, #linkedin:hover, #facebook:hover{
+    cursor: pointer;
 }

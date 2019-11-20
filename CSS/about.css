@@ -38,6 +38,7 @@
     width: calc(50% - 110px);
 }
 #rightBottom{
+    margin-top: 100px;
     width: 100%;
     clear: both;
     float: left;

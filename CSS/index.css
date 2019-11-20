@@ -90,10 +90,70 @@
     background: #FFF;
 }
 
-#menu01:hover,#menu02:hover,#menu03:hover,#menu04:hover,#menu05:hover,#menu06:hover,#menu07:hover,#menu08:hover,#menu09:hover,#menu10:hover,#menu11:hover{
+#menu01:hover,#menu02:hover,#menu03:hover,#menu04:hover,#menu05:hover,#menu06:hover,#menu07:hover,#menu08:hover,#menu09:hover,#menu10:hover{
     background: #FCB1CC;
     /*color: #FFF;*/
     width: 200px;
     text-align: left;
     cursor: pointer;
+}
+#menu01:hover{
+    background-image: url("../Media/Images/Home/ProjectsIcons/aTUA.png");
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    color: #FFF;
+}
+#menu02:hover{
+    background-image: url("../Media/Images/Home/ProjectsIcons/coletaneaafricanos.png");
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    color: #FFF;
+}
+#menu03:hover{
+    background-image: url("../Media/Images/Home/ProjectsIcons/looping.png"); /*mudar*/
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    color: #FFF;
+}
+#menu04:hover{
+    background-image: url("../Media/Images/Home/ProjectsIcons/looping.png");
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    color: #FFF;
+}
+#menu05:hover{
+    background-image: url("../Media/Images/Home/ProjectsIcons/whatsfake.png");
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    color: #FFF;
+}
+#menu06:hover{
+    background-image: url("../Media/Images/Home/ProjectsIcons/looping.png"); /*mudar*/
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    color: #FFF;
+}
+#menu07:hover{
+    background-image: url("../Media/Images/Home/ProjectsIcons/submarine.png");
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    color: #FFF;
+}
+#menu08:hover{
+    background-image: url("../Media/Images/Home/ProjectsIcons/temoso.png");
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    color: #FFF;
+}
+#menu09:hover{
+    background-image: url("../Media/Images/Home/ProjectsIcons/nise.png");
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    color: #FFF;
+}
+#menu10:hover{
+    background-image: url("../Media/Images/Home/ProjectsIcons/looping.png"); /*mudar*/
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    color: #FFF;
 }

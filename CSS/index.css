@@ -42,7 +42,7 @@
 
 #projectName{
     position: absolute;
-    right: 220px;
+    right: 320px;
     top: 31px;
     font-size: 50px;
     font-weight: bolder;
@@ -55,7 +55,7 @@
     right: 10px;
     top: 31px;
     bottom: 0;
-    width: 200px;
+    width: 300px;
 }
 #menu{
     position: absolute;
@@ -93,7 +93,7 @@
 #menu01:hover,#menu02:hover,#menu03:hover,#menu04:hover,#menu05:hover,#menu06:hover,#menu07:hover,#menu08:hover,#menu09:hover,#menu10:hover{
     background: #FCB1CC;
     /*color: #FFF;*/
-    width: 200px;
+    width: 300px;
     text-align: left;
     cursor: pointer;
 }

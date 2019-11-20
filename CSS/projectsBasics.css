@@ -14,12 +14,29 @@
 	float: right;
 	width: 35%;
 	margin-right: 15%;
-	background-color: #FF0;
+    background-color: #FF0;
+    font-size: 20px;
+}
+#miniText{
+    font-size: 20px;
+    float: right;
+    width: 50%;
 }
 #projectName{
     transform: rotate(270deg);
-    transform-origin: right bottom 0;
+    transform-origin: left top 0;
+    float: left;
+    width: 50%;
+    clear: both;
 }
 .projectName{
-
+    font-size: 150px;
+}
+#bottom{
+    margin-top: 79px;
+}
+#left{
+    float: left;
+    width: 35%;
+    margin-left: 15%;
 }

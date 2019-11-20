@@ -107,7 +107,7 @@
     background-image: url("../Media/Images/Home/ProjectsIcons/coletaneaafricanos.png");
 }
 #menu03:hover{
-    background-image: url("../Media/Images/Home/ProjectsIcons/looping.png"); /*mudar*/
+    background-image: url("../Media/Images/Home/ProjectsIcons/album.png");
 }
 #menu04:hover{
     background-image: url("../Media/Images/Home/ProjectsIcons/looping.png");
@@ -128,5 +128,5 @@
     background-image: url("../Media/Images/Home/ProjectsIcons/nise.png");
 }
 #menu10:hover{
-    background-image: url("../Media/Images/Home/ProjectsIcons/looping.png"); /*mudar*/
+    background-image: url("../Media/Images/Home/ProjectsIcons/quadrinho.png");
 }

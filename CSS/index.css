@@ -6,7 +6,7 @@
     position: absolute;
     left: 0;
     right: 200px;
-    top: 31px;
+    top: 50px;
     bottom: 0px;
 }
 #leftBarHolder{
@@ -53,7 +53,7 @@
 #rightBar{
     position: absolute;
     right: 10px;
-    top: 31px;
+    top: 50px;
     bottom: 31px;
     width: 300px;
 }
@@ -107,7 +107,7 @@
     background-image: url("../Media/Images/Home/ProjectsIcons/coletaneaafricanos.png");
 }
 #menu03:hover{
-    background-image: url("../Media/Images/Home/ProjectsIcons/looping.png"); /*mudar*/
+    background-image: url("../Media/Images/Home/ProjectsIcons/album.png");
 }
 #menu04:hover{
     background-image: url("../Media/Images/Home/ProjectsIcons/looping.png");
@@ -128,5 +128,5 @@
     background-image: url("../Media/Images/Home/ProjectsIcons/nise.png");
 }
 #menu10:hover{
-    background-image: url("../Media/Images/Home/ProjectsIcons/looping.png"); /*mudar*/
+    background-image: url("../Media/Images/Home/ProjectsIcons/quadrinho.png");
 }

@@ -37,6 +37,9 @@
     float: right;
     width: calc(50% - 110px);
 }
+#rightText{
+    margin-right: 100px;
+}
 #rightBottom{
     margin-top: 100px;
     width: 100%;
@@ -88,16 +91,14 @@
 #behance, #linkedin, #facebook{
     width: 40px;
     height: 40px;
-    border-radius: 50%;
     float: left;
     background-repeat: no-repeat;
     background-size: contain;
     margin-right: 20px;
-    border-color: #000;
-    border-width: 1px;
 }
 #behance{
     background-image: url("../Media/Images/Icon/behance_icon.png");
+    background-position: left bottom;
 }
 #linkedin{
     background-image: url("../Media/Images/Icon/linkedin_icon.png");

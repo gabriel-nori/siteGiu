@@ -4,3 +4,15 @@
     padding: 0;
     font-family: myHelvetica;
 }
+::-webkit-scrollbar{
+    width: 5px;
+    border-radius: 15%;
+    background-color: #AAA;
+    scroll-margin-bottom: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}

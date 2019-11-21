@@ -1,0 +1,50 @@
+#main{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+#banner{
+	width: 100%;
+	height: 75%;
+	background-color: #F0F;
+}
+#bigText{
+	float: right;
+	width: 35%;
+	margin-right: 15%;
+    font-size: 20px;
+}
+#miniText{
+    font-size: 20px;
+    float: right;
+    width: 50%;
+}
+#projectName{
+    transform: rotate(270deg);
+    transform-origin: left top 0;
+    float: left;
+    width: 50%;
+    clear: both;
+}
+.projectName{
+    font-size: 150px;
+}
+#bottom{
+    margin-top: 79px;
+}
+#left{
+    float: left;
+    width: 35%;
+    margin-left: 15%;
+}
+#topBar{
+    background: none;
+}
+.topBarName{
+    color: #FFF;
+}
+.topBarContact{
+    color: #FFF;
+}

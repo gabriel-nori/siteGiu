@@ -1,6 +1,3 @@
-var
-    homeIcon;
-
 function startFunction(){
     setTopBarClick();
 }

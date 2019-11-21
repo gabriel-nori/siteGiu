@@ -1,5 +1,8 @@
 @import url("./All.css");
 @import url("./projectsBasics.css");
-#bottom{
-    height: 100%;
+#rightImageHolder{
+    width: 100%;
+}
+#rightImage{
+    width: 100%;
 }

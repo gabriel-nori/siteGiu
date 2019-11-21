@@ -10,7 +10,6 @@ var
     ],
     img = [], //Images object array. this is where we should change the images
     time = 5000, //Time, in milliseconds, to change the images
-    homeIcon,
     behanceIcon,
     linkedinIcon,
     facebookIcon,
@@ -23,14 +22,11 @@ function startFunction(){
         img.push(document.getElementById("img"+i));
     }
     changeImages();
-    homeIcon = document.getElementById("topBarHome");
     behanceIcon = document.getElementById("behance");
     linkedinIcon = document.getElementById("linkedin");
     facebookIcon = document.getElementById("facebook");
 
-    homeIcon.onclick = function(){
-        window.location.href = "../index.html";
-    }
+    setTopBarClick();
     behanceIcon.onclick = function(){
         window.open(behanceLink, "_blank");
     }

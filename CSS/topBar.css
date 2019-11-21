@@ -1,11 +1,19 @@
 #topBar{
     position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    font-size: 20px;
+    background: #FFF;
+    z-index: 2;
+}
+#topBarHolder{
     top: 10px;
     left: 0;
     right: 0;
     height: 30px;
-    font-size: 25px;
-    background: #FFF;
+    position: relative;
 }
 .topBarHome{
     height: 40px;

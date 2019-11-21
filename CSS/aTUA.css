@@ -1,0 +1,8 @@
+@import url("./All.css");
+@import url("./projectsBasics.css");
+#rightImageHolder{
+    width: 100%;
+}
+#rightImage{
+    width: 100%;
+}

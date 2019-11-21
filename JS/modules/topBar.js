@@ -1,4 +1,4 @@
-export function setTopBarClick(){
+function setTopBarClick(){
     homeIcon = document.getElementById("topBarHome");
     homeIcon.onclick = function(){
         window.location.href = "../index.html";
@@ -11,4 +11,4 @@ export function setTopBarClick(){
     contacts.onclick = function(){
         window.location.href = "../index.html";
     }
-};
+}

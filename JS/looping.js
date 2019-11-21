@@ -1,9 +1,7 @@
-var topBar = import("./topBar.js");
-
 var
-homeIcon;
+    homeIcon;
 
 function startFunction(){
-    topBar.setClick();
+    setTopBarClick();
 }
 document.addEventListener("DOMContentLoaded", startFunction);

@@ -1,6 +1,6 @@
 #main{
 	position: absolute;
-	top: 0;
+	top: 50px;
 	left: 0;
 	right: 0;
 	bottom: 0;
@@ -35,11 +35,12 @@
 }
 #left{
     float: left;
-    width: 35%;
+    width: calc(35% - 10px);
     margin-left: 15%;
+    margin-right: 10px;
 }
 #topBar{
-    background: none;
+    background: #FFF;
 }
 .topBarName{
     color: #000;

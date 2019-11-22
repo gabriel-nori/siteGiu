@@ -1,5 +1,7 @@
 #menuBurger{
 	background: url("../Media/Icons/Menu/Closed/menu-black-18dp/2x/baseline_menu_black_18dp.png");
+	background-repeat: no-repeat;
+	background-origin: content-box;
 	height: 40px;
 	width: 40px;
 	position: fixed;
@@ -16,7 +18,7 @@
 		bottom: 0;
 		width: 50%;
 		font-size: 20px;
-		background: #FFF;
+		background: rgba(255,255,255, 0.8);
 		z-index: 2;
 	}
 	#menuBarHolder{

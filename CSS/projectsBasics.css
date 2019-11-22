@@ -1,6 +1,6 @@
 #main{
 	position: absolute;
-	top: 0;
+	top: 50px;
 	left: 0;
 	right: 0;
 	bottom: 0;
@@ -8,7 +8,6 @@
 #banner{
 	width: 100%;
 	height: 75%;
-	background-color: #F0F;
 }
 #bigText{
 	float: right;
@@ -36,15 +35,24 @@
 }
 #left{
     float: left;
-    width: 35%;
+    width: calc(35% - 10px);
     margin-left: 15%;
+    margin-right: 10px;
 }
 #topBar{
-    background: none;
+    background: #FFF;
 }
 .topBarName{
-    color: #FFF;
+    color: #000;
 }
 .topBarContact{
-    color: #FFF;
+    color: #000;
+}
+#bannerImg{
+    height: 100%;
+    width: auto;
+    text-align: center;
+    display: block;
+    margin: auto;
+    max-width: 100%;
 }

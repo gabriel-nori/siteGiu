@@ -27,21 +27,14 @@ var
         "nise à mão",
         "moça rosa"
     ],
-    projectName,
-    topBarName,
-    topBarContact;
+    projectName;
 function setClickListeners(elements){
     for(i=0; i<elements.length;i++){
         elements[i].onclick = function(){
             window.location.href = this.dataset.projectLink;
         };
-    }
-    topBarContact.onclick = function(){
-        window.location.href = contactLink;
-    }
-    topBarName.onclick = function(){
-        window.location.href = aboutLink;
-    }
+	}
+	setMenuBarClick();
 }
 function setMouseOver(elements){
     for(i=0;i<elements.length;i++){
@@ -57,8 +50,8 @@ function setMouseOut(){
 }
 function startFunction(){
     projectName = document.getElementById("projectNameText");
-    topBarContact = document.getElementById("topBarContact");
-    topBarName = document.getElementById("topBarName");
+    menuBarContact = document.getElementById("menuBarContact");
+    menuBarName = document.getElementById("menuBarName");
 
     for(i=1;i<11;i++){
         var item = i;

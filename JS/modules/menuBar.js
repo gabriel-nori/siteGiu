@@ -27,7 +27,7 @@ function setMenuBarClick(){
 	if(document.getElementById("main")){
 		mainContainer = document.getElementById("main");
 		mainContainer.onclick = function(){
-			document.getElementById("main").style.visibility = "hidden";
+			document.getElementById("menuBar").style.visibility = "hidden";
 		}
 	}
 }

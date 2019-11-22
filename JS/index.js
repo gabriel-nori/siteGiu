@@ -28,18 +28,18 @@ var
         "moça rosa"
     ],
     projectName,
-    topBarName,
-    topBarContact;
+    menuBarName,
+    menuBarContact;
 function setClickListeners(elements){
     for(i=0; i<elements.length;i++){
         elements[i].onclick = function(){
             window.location.href = this.dataset.projectLink;
         };
     }
-    topBarContact.onclick = function(){
+    menuBarContact.onclick = function(){
         window.location.href = contactLink;
     }
-    topBarName.onclick = function(){
+    menuBarName.onclick = function(){
         window.location.href = aboutLink;
     }
 }
@@ -57,8 +57,8 @@ function setMouseOut(){
 }
 function startFunction(){
     projectName = document.getElementById("projectNameText");
-    topBarContact = document.getElementById("topBarContact");
-    topBarName = document.getElementById("topBarName");
+    menuBarContact = document.getElementById("menuBarContact");
+    menuBarName = document.getElementById("menuBarName");
 
     for(i=1;i<11;i++){
         var item = i;

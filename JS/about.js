@@ -26,7 +26,7 @@ function startFunction(){
     linkedinIcon = document.getElementById("linkedin");
     facebookIcon = document.getElementById("facebook");
 
-    setTopBarClick();
+    setMenuBarClick();
     behanceIcon.onclick = function(){
         window.open(behanceLink, "_blank");
     }

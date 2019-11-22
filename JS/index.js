@@ -27,21 +27,14 @@ var
         "nise à mão",
         "moça rosa"
     ],
-    projectName,
-    menuBarName,
-    menuBarContact;
+    projectName;
 function setClickListeners(elements){
     for(i=0; i<elements.length;i++){
         elements[i].onclick = function(){
             window.location.href = this.dataset.projectLink;
         };
-    }
-    menuBarContact.onclick = function(){
-        window.location.href = contactLink;
-    }
-    menuBarName.onclick = function(){
-        window.location.href = aboutLink;
-    }
+	}
+	setMenuBarClick();
 }
 function setMouseOver(elements){
     for(i=0;i<elements.length;i++){

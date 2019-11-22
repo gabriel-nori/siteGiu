@@ -1,32 +1,90 @@
-#menuBar{
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 50px;
-    font-size: 20px;
-    background: #FFF;
-    z-index: 2;
+#menuBurger{
+	background: url("../Media/Icons/Menu/Closed/menu-black-18dp/2x/baseline_menu_black_18dp.png");
+	height: 40px;
+	width: 40px;
+	position: fixed;
+	top: 10px;
+	left: 10px;
+	z-index: 3;
 }
-#menuBarHolder{
-    top: 10px;
-    left: 0;
-    right: 0;
-    height: 30px;
-    position: relative;
+@media only screen and (max-width: 759px){
+	#menuBar{
+		visibility: hidden;
+		position: fixed;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		width: 50%;
+		font-size: 20px;
+		background: #FFF;
+		z-index: 2;
+	}
+	#menuBarHolder{
+		visibility: inherit;
+		top: 70px;
+		left: 0;
+		bottom: 0;
+		position: relative;
+	}
+	.menuBarHome{
+		visibility: inherit;
+		height: 40px;
+		width: 40px;
+		margin: auto;
+		cursor: pointer;
+		float: left;
+		clear: both;
+	}
+	.menuBarName{
+		visibility: inherit;
+		float: left;
+		clear: both;
+		cursor: pointer;
+	}
+	.menuBarContact{
+		visibility: inherit;
+		float: left;
+		clear: both;
+		cursor: pointer;
+	}
+	#menuBurger{
+		visibility: visible;
+	}
 }
-.menuBarHome{
-    height: 40px;
-    width: 40px;
-    margin-left: 40px;
-    margin-bottom: -20px;;
-    cursor: pointer;
-}
-.menuBarName{
-    margin-left: 40px;
-    cursor: pointer;
-}
-.menuBarContact{
-    margin-left: 40px;
-    cursor: pointer;
+@media only screen and (min-width: 760px){
+	#menuBar{
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		height: 50px;
+		font-size: 20px;
+		background: #FFF;
+		z-index: 2;
+	}
+	#menuBarHolder{
+		top: 10px;
+		left: 0;
+		right: 0;
+		height: 30px;
+		position: relative;
+	}
+	.menuBarHome{
+		height: 40px;
+		width: 40px;
+		margin-left: 40px;
+		margin-bottom: -20px;;
+		cursor: pointer;
+	}
+	.menuBarName{
+		margin-left: 40px;
+		cursor: pointer;
+	}
+	.menuBarContact{
+		margin-left: 40px;
+		cursor: pointer;
+	}
+	#menuBurger{
+		visibility: hidden;
+	}
 }

@@ -8,7 +8,6 @@
 #banner{
 	width: 100%;
 	height: 75%;
-	background-color: #F0F;
 }
 #bigText{
 	float: right;
@@ -43,8 +42,16 @@
     background: none;
 }
 .topBarName{
-    color: #FFF;
+    color: #000;
 }
 .topBarContact{
-    color: #FFF;
+    color: #000;
+}
+#bannerImg{
+    height: 100%;
+    width: auto;
+    text-align: center;
+    display: block;
+    margin: auto;
+    max-width: 100%;
 }

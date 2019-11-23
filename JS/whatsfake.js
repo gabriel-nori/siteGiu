@@ -1,4 +1,4 @@
 function startFunction(){
-    setTopBarClick();
+    setMenuBarClick();
 }
 document.addEventListener("DOMContentLoaded", startFunction);

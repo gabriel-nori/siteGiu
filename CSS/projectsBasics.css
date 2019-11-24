@@ -19,6 +19,9 @@
 #miniText{
 	font-size: 15px;
 }
+.bigText{
+	font-size: 20px;
+}
 @media only screen and (max-width: 759px){
 	#banner{
 		width: 100%;
@@ -140,6 +143,7 @@
 		width: 35%;
 		max-width: 35%;
 		margin-right: 15%;
+		margin-bottom: 100px;
 	}
 	#rightImage{
 		width: 100%;
@@ -180,9 +184,24 @@
 		float: right;
 		clear: both;
 	}
+	#videoHolder{
+		width: 75%;
+		max-height: 100%;
+		margin-left: 12.5%;
+		margin-right: 12.5%;
+	}
 	#video{
-		height: 100%;
 		width: 100%;
-		background-color: #F0F;
+		height: auto;
+		max-height: 100%;
+	}
+	.marginTop100{
+		margin-top: 100px;
+	}
+	#coisado{
+		clear: both;
+		width: calc(50% - 10px);
+		float: right;
+		margin-top: 100px;
 	}
 }

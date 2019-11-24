@@ -22,6 +22,18 @@
 .bigText{
 	font-size: 20px;
 }
+.squareImgage{
+	width: 100%;
+	margin-left: 5px;
+	margin-bottom: 10px;
+}
+.fitImage{
+	width: 100%;
+	height: auto;
+	text-align: center;
+	display: block;
+	margin: auto;
+}
 @media only screen and (max-width: 759px){
 	#banner{
 		width: 100%;
@@ -90,7 +102,38 @@
 		float: left;
 		width: calc (50% - 10px);
 		height: 100%;
-		background-color: #F0F;
+	}
+	#leftMiniImage, #rightMiniImage{
+		width: calc(50% - 10px);
+	}
+	#leftMiniImage{
+		float: left;
+	}
+	#rightMiniImage{
+		float: right;
+	}
+	#img1, #img3{
+		float: left;
+		clear: both;
+	}
+	#img2, #img4{
+		float: right;
+		clear: both;
+	}
+	#videoHolder{
+		width: 100%;
+		max-height: 100%;
+	}
+	#video{
+		width: 100%;
+		height: auto;
+		max-height: 100%;
+	}
+	.marginTop100{
+		margin-top: 100px;
+	}
+	#coisado{
+		visibility: hidden;
 	}
 }
 @media only screen and (min-width: 760px){
@@ -163,18 +206,6 @@
 	}
 	#rightMiniImage{
 		float: right;
-	}
-	.squareImgage{
-		width: 100%;
-		margin-left: 5px;
-		margin-bottom: 10px;
-	}
-	.fitImage{
-		width: 100%;
-		height: auto;
-		text-align: center;
-		display: block;
-		margin: auto;
 	}
 	#img1, #img3{
 		float: left;

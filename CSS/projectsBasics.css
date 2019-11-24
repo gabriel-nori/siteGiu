@@ -21,8 +21,9 @@
 		transform: translateX(-50%) translateY(-50%)  rotate(270deg);
 		transform-origin: top right;
 		float: left;
-		width: 40%;
-		margin-right: 10%;
+		width: 25%;
+		margin-right: 25;
+		margin-top: 20%;
 		clear: both;
 		display: block;
 		writing-mode: lr-bt;

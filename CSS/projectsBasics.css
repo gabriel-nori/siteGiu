@@ -117,9 +117,12 @@
 	}
 	#bottom{
 		margin-top: 79px;
+		width: 100%;
+		height: auto;
 	}
 	#left{
 		float: left;
+		width: 100%;
 		width: calc(35% - 10px);
 		margin-left: 15%;
 		margin-right: 10px;
@@ -131,6 +134,7 @@
 		color: #000;
 	}
 	#rightImageHolder{
+		margin-top: 100px;
 		clear: both;
 		float: right;
 		width: 35%;
@@ -143,12 +147,21 @@
 	}
 	#images{
 		float: left;
-		width: 35%;
-		margin-left: 7.5%;
-		margin-right: 7.5%;
+		width: calc(50% - 200px);
+		margin-left: 100px;
+		margin-right: 100px;
+	}
+	#leftMiniImage, #rightMiniImage{
+		width: calc(50% - 10px);
+	}
+	#leftMiniImage{
+		float: left;
+	}
+	#rightMiniImage{
+		float: right;
 	}
 	.squareImgage{
-		width: calc(50% - 10px);
+		width: 100%;
 		margin-left: 5px;
 		margin-bottom: 10px;
 	}
@@ -161,11 +174,15 @@
 	}
 	#img1, #img3{
 		float: left;
-	}
-	#img3{
-		clear: left;
+		clear: both;
 	}
 	#img2, #img4{
 		float: right;
+		clear: both;
+	}
+	#video{
+		height: 100%;
+		width: 100%;
+		background-color: #F0F;
 	}
 }

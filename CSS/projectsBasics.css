@@ -18,11 +18,15 @@
 		width: 50%;
 	}
 	#projectName{
-		transform: rotate(270deg);
-		transform-origin: left top 0;
+		transform: translateX(-50%) translateY(-50%)  rotate(270deg);
+		transform-origin: top right;
 		float: left;
-		width: 50%;
+		width: 25%;
+		margin-right: 25;
+		margin-top: 20%;
 		clear: both;
+		display: block;
+		writing-mode: lr-bt;
 	}
 	#bigText{
 		clear: both;
@@ -35,7 +39,6 @@
 	}
 	.projectName{
 		font-size: 150px;
-		float: left;
 	}
 	#bottom{
 		margin-top: 79px;

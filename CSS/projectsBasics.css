@@ -6,6 +6,16 @@
 	bottom: 0;
 	overflow-x: hidden;
 }
+#bannerImg{
+	height: auto;
+	width: 100%;
+	text-align: center;
+	display: block;
+	margin: auto;
+}
+#banner{
+	overflow: hidden;
+}
 @media only screen and (max-width: 759px){
 	#banner{
 		width: 100%;
@@ -14,18 +24,21 @@
 	#miniText{
 		font-size: 20px;
 		float: right;
-		width: 50%;
+		width: 35%;
+		margin-left: 7.5%;
+		margin-right: 7.5%;
 	}
 	#projectName{
 		transform: translateX(-50%) translateY(-50%)  rotate(270deg);
 		transform-origin: top right;
 		float: left;
 		width: 25%;
-		margin-right: 25;
+		margin-right: 25%;
 		margin-top: 20%;
 		clear: both;
 		display: block;
 		writing-mode: lr-bt;
+		background-color: #F0F;
 	}
 	#bigText{
 		clear: both;
@@ -61,22 +74,13 @@
 	}
 	#left{
 		float: right;
-		width: 75%;
-		margin-right: 12.5%;
+		width: 100%;
 	}
 	.menuBarName{
 		color: #000;
 	}
 	.menuBarContact{
 		color: #000;
-	}
-	#bannerImg{
-		height: 100%;
-		width: auto;
-		text-align: center;
-		display: block;
-		margin: auto;
-		max-height: 100%;
 	}
 }
 @media only screen and (min-width: 760px){
@@ -119,14 +123,6 @@
 	}
 	.menuBarContact{
 		color: #000;
-	}
-	#bannerImg{
-		height: 100%;
-		width: auto;
-		text-align: center;
-		display: block;
-		margin: auto;
-		max-height: 100%;
 	}
 	#rightImageHolder{
 		clear: both;

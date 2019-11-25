@@ -27,6 +27,7 @@
 		left: 0;
 		bottom: 0;
 		position: relative;
+		text-align: left;
 	}
 	.menuBarHome{
 		visibility: inherit;
@@ -42,12 +43,22 @@
 		float: left;
 		clear: both;
 		cursor: pointer;
+		margin-top: 20px;
+		border-bottom-color: #000;
+		border-bottom-width: 1px;
+		text-align: left;
+		margin-left: 0;
 	}
 	.menuBarContact{
 		visibility: inherit;
 		float: left;
 		clear: both;
 		cursor: pointer;
+		text-align: left;
+		margin-left: 0;
+	}
+	.hideInMobile{
+		visibility: hidden;
 	}
 	#menuBurger{
 		visibility: visible;
@@ -85,6 +96,9 @@
 	.menuBarContact{
 		margin-left: 40px;
 		cursor: pointer;
+	}
+	.hideInMobile{
+		visibility: visible;
 	}
 	#menuBurger{
 		visibility: hidden;

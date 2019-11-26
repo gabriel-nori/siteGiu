@@ -16,7 +16,6 @@ function setMenuBarClick(){
 	menuBurger = document.getElementById("menuBurger");
 	menuBurger.onclick = function(){
 		menu = document.getElementById("menuBar");
-		console.log(menu.style.visibility);
 		if(menu.style.visibility == "hidden" || menu.style.visibility == ""){
 			menu.style.visibility = "visible";
 		}

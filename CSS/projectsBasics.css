@@ -30,8 +30,8 @@
 }
 @media only screen and (max-width: 759px){
 	#bannerImg, #bannerImg2{
-		height: 100%;
-		width: auto;
+		height: auto;
+		width: 100%;
 		text-align: center;
 		display: block;
 		margin: auto;
@@ -147,7 +147,7 @@
 	}
 	#banner{
 		height: 75%;
-		background-color: #000;
+		width: 100%;
 	}
 	#bigText{
 		float: right;

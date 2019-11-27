@@ -24,14 +24,13 @@ function setGallery(firstImage, secondImage, imagesIn, intervalIn){
 }
 function changeImages(){
 	let holder = actualImage;
-	nextImage.className = "hidden";
 	actual += 1;
 	if(actual > maxIndex){
 		actual = 0
 	}
 	nextImage.src = images[actual];
-	actualImage.className = "slideOutImage";
 	nextImage.className = "slideInImage";
+	actualImage.className = "slideOutImage";
 	actualImage = nextImage;
 	nextImage = holder;
 }

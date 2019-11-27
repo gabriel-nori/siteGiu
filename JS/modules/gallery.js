@@ -13,7 +13,7 @@ function setGallery(firstImage, secondImage, imagesIn, intervalIn){
 	actualImage = firstImage;
 	nextImage = secondImage;
 	interval = intervalIn*1000;
-	totalImages = images.length;
+	totalImages = imagesSrc.length;
 	maxIndex = totalImages -1;
 	if(firstImage && secondImage){
 		timed = setInterval(changeImages, interval);
@@ -29,6 +29,7 @@ function changeImages(){
 		actual = 0
 	}
 	nextImage.src = images[actual];
+	console.log(images[actual]);
 	nextImage.className = "slideInImage";
 	actualImage.className = "slideOutImage";
 	actualImage = nextImage;

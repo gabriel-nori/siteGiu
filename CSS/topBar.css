@@ -44,7 +44,7 @@
 		float: left;
 		clear: both;
 		cursor: pointer;
-		margin-top: 20px;
+		padding-top: 20px;
 		border-bottom-color: #000;
 		border-bottom-width: 1px;
 		text-align: left;
@@ -56,10 +56,13 @@
 		clear: both;
 		cursor: pointer;
 		text-align: left;
+		padding-top: 20px;
 		margin-left: 0;
 	}
 	.hideInMobile{
 		visibility: hidden;
+		display: none;
+		width: 0;
 	}
 	#menuBurger{
 		visibility: visible;

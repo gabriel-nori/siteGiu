@@ -16,11 +16,14 @@ function setMenuBarClick(){
 	menuBurger = document.getElementById("menuBurger");
 	menuBurger.onclick = function(){
 		menu = document.getElementById("menuBar");
+		menuBurger = document.getElementById("menuBurger");
 		if(menu.className == "slide-out" || menu.className == ""){
 			menu.className = "slide-in";
+			menuBurger.style.background = "url(\"../Media/Icons/Menu/Opened/menu_open-black-18dp/2x/baseline_menu_open_black_18dp.png\")";
 		}
 		else{
 			menu.className = "slide-out";
+			menuBurger.style.background = "url(\"../Media/Icons/Menu/Closed/menu-black-18dp/2x/baseline_menu_black_18dp.png\")";
 		}
 	}
 	if(document.getElementById("main")){

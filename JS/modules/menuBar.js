@@ -16,11 +16,11 @@ function setMenuBarClick(){
 	menuBurger = document.getElementById("menuBurger");
 	menuBurger.onclick = function(){
 		menu = document.getElementById("menuBar");
-		if(menu.style.visibility == "hidden" || menu.style.visibility == ""){
-			menu.style.visibility = "visible";
+		if(menu.className == "slide-out" || menu.className == ""){
+			menu.className = "slide-in";
 		}
 		else{
-			menu.style.visibility = "hidden";
+			menu.className = "slide-out";
 		}
 	}
 	if(document.getElementById("main")){

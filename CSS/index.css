@@ -9,131 +9,275 @@
 	bottom: 0;
 	overflow-x: hidden;
 }
-#leftBar{
-    position: absolute;
-    left: 0;
-    right: 200px;
-    top: 50px;
-    bottom: 0px;
-}
-#leftBarHolder{
-    position: absolute;
-    left: 100px;
-    top: 100px;
-    bottom: 200px;
-    background-image: url("../Media/Images/Background/Home/Logo_Pessoal.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-#coletaneaHolder{
-    position: relative;
-    left: 0;
-    margin-top: 150px;
-}
-#underHolder{
-    position: relative;
-    right: 0;
-    margin-top: 20px;
-}
-.coletaneaText{
-    font-weight: bolder;
-    font-size: 160px;
-    text-align: left;
-}
-.underText{
-    position: absolute;
-    text-align: left;
-    right: 0;
-    font-size: 26px;
-}
+@media only screen and (min-width: 1400px){
+	#leftBar{
+		position: absolute;
+		left: 0;
+		right: 200px;
+		top: 50px;
+		bottom: 0px;
+	}
+	#leftBarHolder{
+		position: absolute;
+		left: 100px;
+		top: 100px;
+		bottom: 200px;
+		background-image: url("../Media/Images/Background/Home/Logo_Pessoal.png");
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+	#coletaneaHolder{
+		position: relative;
+		left: 0;
+		margin-top: 150px;
+	}
+	#underHolder{
+		position: relative;
+		right: 0;
+		margin-top: 20px;
+	}
+	.coletaneaText{
+		font-weight: bolder;
+		font-size: 160px;
+		text-align: left;
+	}
+	.underText{
+		position: absolute;
+		text-align: left;
+		right: 0;
+		font-size: 26px;
+	}
 
-#projectName{
-    position: absolute;
-    right: 320px;
-    top: 31px;
-    font-size: 50px;
-    font-weight: bolder;
-    transform: rotate(270deg);
-    transform-origin: right bottom 0;
-}
+	#projectName{
+		position: absolute;
+		right: 320px;
+		top: 31px;
+		font-size: 50px;
+		font-weight: bolder;
+		transform: rotate(270deg);
+		transform-origin: right bottom 0;
+	}
 
-#rightBar{
-    position: absolute;
-    right: 10px;
-    top: 50px;
-    bottom: 31px;
-    width: 300px;
-}
-#menu{
-    position: absolute;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    font-size: 130px;
-    overflow-y: scroll;
-    /*font-size: 72px;*/
-    font-weight: bolder;
-    text-align: right;
-    width: 100%;
-}
-#menu a{
-    text-decoration: none;
-    color: #000;
-}
-::-webkit-scrollbar{
-    width: 0;
-}
+	#rightBar{
+		position: absolute;
+		right: 10px;
+		top: 50px;
+		bottom: 31px;
+		width: 300px;
+	}
+	#menu{
+		position: absolute;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		font-size: 130px;
+		overflow-y: scroll;
+		/*font-size: 72px;*/
+		font-weight: bolder;
+		text-align: right;
+		width: 100%;
+	}
+	#menu a{
+		text-decoration: none;
+		color: #000;
+	}
+	::-webkit-scrollbar{
+		width: 0;
+	}
 
-.selected{
-    visibility: visible;
-}
+	.selected{
+		visibility: visible;
+	}
 
-.selectedItem{
-    background: #FF0;
-    width: 200px;
-    text-align: left;
-}
-.menuItem{
-    background: #FFF;
-}
+	.selectedItem{
+		background: #FF0;
+		width: 200px;
+		text-align: left;
+	}
+	.menuItem{
+		background: #FFF;
+	}
 
-#menu01:hover,#menu02:hover,#menu03:hover,#menu04:hover,#menu05:hover,#menu06:hover,#menu07:hover,#menu08:hover,#menu09:hover,#menu10:hover{
-    background: #FCB1CC;
-    /*color: #FFF;*/
-    width: 300px;
-    text-align: left;
-    cursor: pointer;
-    background-size: 100% auto;
-    background-repeat: no-repeat;
-    color: #FFF;
+	#menu01:hover,#menu02:hover,#menu03:hover,#menu04:hover,#menu05:hover,#menu06:hover,#menu07:hover,#menu08:hover,#menu09:hover,#menu10:hover{
+		background: #FCB1CC;
+		/*color: #FFF;*/
+		width: 300px;
+		text-align: left;
+		cursor: pointer;
+		background-size: 100% auto;
+		background-repeat: no-repeat;
+		color: #FFF;
+	}
+	#menu01:hover{
+		background-image: url("../Media/Images/Home/ProjectsIcons/aTUA.png");
+	}
+	#menu02:hover{
+		background-image: url("../Media/Images/Home/ProjectsIcons/coletaneaafricanos.png");
+	}
+	#menu03:hover{
+		background-image: url("../Media/Images/Home/ProjectsIcons/album.png");
+	}
+	#menu04:hover{
+		background-image: url("../Media/Images/Home/ProjectsIcons/looping.png");
+	}
+	#menu05:hover{
+		background-image: url("../Media/Images/Home/ProjectsIcons/whatsfake.png");
+	}
+	#menu06:hover{
+		background-image: url("../Media/Images/Home/ProjectsIcons/seashelleyes.png");
+	}
+	#menu07:hover{
+		background-image: url("../Media/Images/Home/ProjectsIcons/submarine.png");
+	}
+	#menu08:hover{
+		background-image: url("../Media/Images/Home/ProjectsIcons/temoso.png");
+	}
+	#menu09:hover{
+		background-image: url("../Media/Images/Home/ProjectsIcons/nise.png");
+	}
+	#menu10:hover{
+		background-image: url("../Media/Images/Home/ProjectsIcons/quadrinho.png");
+	}
 }
-#menu01:hover{
-    background-image: url("../Media/Images/Home/ProjectsIcons/aTUA.png");
+@media only screen and (max-width: 1399px){
+	#leftBar{
+		float: left;
+		width: 100%;
+		clear: both;
+	}
+	#leftBarHolder{
+		float: left;
+		width: 80%;
+		margin-left: 10%;
+		margin-right: 10%;
+		background-image: url("../Media/Images/Background/Home/Logo_Pessoal.png");
+		background-size: contain;
+		background-repeat: no-repeat;
+		clear: both;
+	}
+	#coletaneaHolder{
+		margin-top: 40px;
+		float: left;
+		clear: both;
+	}
+	#underHolder{
+		float: right;
+		clear: both;
+	}
+	.coletaneaText{
+		font-weight: bolder;
+		font-size: 160px;
+		text-align: left;
+	}
+	.underText{
+		text-align: left;
+		font-size: 26px;
+	}
+
+	#projectName{
+		display: none;
+	}
+
+	#rightBar{
+		width: 100%;
+		float: right;
+		margin-top: 40px;
+		clear: both;
+	}
+	#menu{
+		float: right;
+		width: 90%;
+		margin-left: 10%;
+		font-size: 130px;
+		overflow-y: scroll;
+		font-weight: bolder;
+		text-align: right;
+	}
+	#menu a{
+		text-decoration: none;
+		color: #000;
+	}
+	::-webkit-scrollbar{
+		width: 0;
+	}
+
+	.selected{
+		visibility: visible;
+	}
+
+	.selectedItem{
+		background: #FF0;
+		width: 200px;
+		text-align: left;
+	}
+	.menuItem{
+		background: #FFF;
+	}
+
+	#menu01,#menu02,#menu03,#menu04,#menu05,#menu06,#menu07,#menu08,#menu09,#menu10{
+		text-align: left;
+		cursor: pointer;
+		background-size: 100% auto;
+		background-repeat: no-repeat;
+		color: #FFF;
+		width: 100%;
+	}
+	#menu01{
+		background-image: url("../Media/Images/Home/ProjectsIcons/aTUA.png");
+	}
+	#menu02{
+		background-image: url("../Media/Images/Home/ProjectsIcons/coletaneaafricanos.png");
+	}
+	#menu03{
+		background-image: url("../Media/Images/Home/ProjectsIcons/album.png");
+	}
+	#menu04{
+		background-image: url("../Media/Images/Home/ProjectsIcons/looping.png");
+	}
+	#menu05{
+		background-image: url("../Media/Images/Home/ProjectsIcons/whatsfake.png");
+	}
+	#menu06{
+		background-image: url("../Media/Images/Home/ProjectsIcons/seashelleyes.png");
+	}
+	#menu07{
+		background-image: url("../Media/Images/Home/ProjectsIcons/submarine.png");
+	}
+	#menu08{
+		background-image: url("../Media/Images/Home/ProjectsIcons/temoso.png");
+	}
+	#menu09{
+		background-image: url("../Media/Images/Home/ProjectsIcons/nise.png");
+	}
+	#menu10{
+		background-image: url("../Media/Images/Home/ProjectsIcons/quadrinho.png");
+	}
 }
-#menu02:hover{
-    background-image: url("../Media/Images/Home/ProjectsIcons/coletaneaafricanos.png");
+@media only screen and (max-width: 780px){
+	.coletaneaText{
+		font-weight: bolder;
+		font-size: 120px;
+		text-align: left;
+	}
 }
-#menu03:hover{
-    background-image: url("../Media/Images/Home/ProjectsIcons/album.png");
+@media only screen and (max-width: 585px){
+	.coletaneaText{
+		font-weight: bolder;
+		font-size: 90px;
+		text-align: left;
+	}
 }
-#menu04:hover{
-    background-image: url("../Media/Images/Home/ProjectsIcons/looping.png");
+@media only screen and (max-width: 438px){
+	.coletaneaText{
+		font-weight: bolder;
+		font-size: 75px;
+		text-align: left;
+	}
 }
-#menu05:hover{
-    background-image: url("../Media/Images/Home/ProjectsIcons/whatsfake.png");
-}
-#menu06:hover{
-    background-image: url("../Media/Images/Home/ProjectsIcons/seashelleyes.png");
-}
-#menu07:hover{
-    background-image: url("../Media/Images/Home/ProjectsIcons/submarine.png");
-}
-#menu08:hover{
-    background-image: url("../Media/Images/Home/ProjectsIcons/temoso.png");
-}
-#menu09:hover{
-    background-image: url("../Media/Images/Home/ProjectsIcons/nise.png");
-}
-#menu10:hover{
-    background-image: url("../Media/Images/Home/ProjectsIcons/quadrinho.png");
+@media only screen and (max-width: 366px){
+	.coletaneaText{
+		font-weight: bolder;
+		font-size: 60px;
+		text-align: left;
+	}
 }

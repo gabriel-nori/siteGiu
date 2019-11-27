@@ -1,2 +1,5 @@
 @import url("./All.css");
 @import url("./projectsBasics.css");
+.projectName{
+	color: #D44F60;
+}

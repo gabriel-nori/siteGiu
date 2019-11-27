@@ -6,7 +6,10 @@
 	bottom: 0;
 	overflow-x: hidden;
 }
-#bannerImg{
+#bannerImg, #bannerImg2{
+	position: relative;
+	top: 0;
+	left: 0;
 	height: auto;
 	width: 100%;
 	text-align: center;
@@ -15,6 +18,7 @@
 }
 #banner{
 	overflow: hidden;
+	transform-style: preserve-3d;
 }
 #miniText{
 	font-size: 15px;
@@ -235,4 +239,45 @@
 		float: right;
 		margin-top: 100px;
 	}
+}
+.hidden{
+	transform: translateX(100%);
+	-webkit-transform: translateX(100%);
+}
+.slideInImage {
+	animation-name: slideInImage;
+	animation-duration: 0.5s;
+	animation-fill-mode: forwards;
+	-webkit-animation-name: slideInImage;
+	-webkit-animation-duration: 0.5s;
+	-webkit-animation-fill-mode: forwards;
+}
+
+.slideOutImage {
+	animation-name: slideInImage;
+	animation-duration: 0.5s;
+	animation-fill-mode: forwards;
+	-webkit-animation-name: slideInImage;
+	-webkit-animation-duration: 0.5s;
+	-webkit-animation-fill-mode: forwards;
+}
+	
+@keyframes slideInImage {
+	0% { transform: translateX(100%); }
+	100% { transform: translateX(0%); }
+}
+
+@-webkit-keyframes slideInImage {
+	0% { -webkit-transform: translateX(100%); }
+	100% { -webkit-transform: translateX(0%); }
+}
+	
+@keyframes slideOutImage {
+	0% { transform: translateX(0%); }
+	100% { transform: translateX(-100%); }
+}
+
+@-webkit-keyframes slideOutImage {
+	0% { -webkit-transform: translateX(0%); }
+	100% { -webkit-transform: translateX(-100%); }
 }

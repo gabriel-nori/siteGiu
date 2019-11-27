@@ -45,17 +45,22 @@ function setClickListeners(elements){
 	menuBurger = document.getElementById("menuBurger");
 	menuBurger.onclick = function(){
 		menu = document.getElementById("menuBar");
-		if(menu.style.visibility == "hidden" || menu.style.visibility == ""){
-			menu.style.visibility = "visible";
+		menuBurger = document.getElementById("menuBurger");
+		if(menu.className == "slide-out" || menu.className == ""){
+			menu.className = "slide-in";
+			menuBurger.style.background = "url(\"./Media/Icons/Menu/Opened/menu_open-black-18dp/2x/baseline_menu_open_black_18dp.png\")";
 		}
 		else{
-			menu.style.visibility = "hidden";
+			menu.className = "slide-out";
+			menuBurger.style.background = "url(\"./Media/Icons/Menu/Closed/menu-black-18dp/2x/baseline_menu_black_18dp.png\")";
 		}
 	}
 	if(document.getElementById("main")){
 		mainContainer = document.getElementById("main");
 		mainContainer.onclick = function(){
-			document.getElementById("menuBar").style.visibility = "hidden";
+			menuBurger = document.getElementById("menuBurger");
+			menu.className = "slide-out";
+			menuBurger.style.background = "url(\"./Media/Icons/Menu/Closed/menu-black-18dp/2x/baseline_menu_black_18dp.png\")";
 		}
 	}
 }

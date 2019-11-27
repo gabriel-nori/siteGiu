@@ -146,8 +146,8 @@
 		margin: auto;
 	}
 	#banner{
-		width: 100%;
 		height: 75%;
+		background-color: #000;
 	}
 	#bigText{
 		float: right;
@@ -249,39 +249,47 @@
 	-webkit-transform: translateX(100%);
 }
 .slideInImage {
-	animation-name: slideInImage;
+	animation-name: slideInImageAnim;
 	animation-duration: 0.5s;
-	animation-fill-mode: forwards;
-	-webkit-animation-name: slideInImage;
+	animation-fill-mode: both;
+	animation-iteration-count: 1;
+	animation-direction: normal;
+	-webkit-animation-name: slideInImageAnim;
 	-webkit-animation-duration: 0.5s;
-	-webkit-animation-fill-mode: forwards;
+	-webkit-animation-fill-mode: both;
+	-webkit-animation-iteration-count: 1;
+	-webkit-animation-direction: normal;
 }
 
 .slideOutImage {
-	animation-name: slideInImage;
+	animation-name: slideOutImageAnim;
 	animation-duration: 0.5s;
-	animation-fill-mode: forwards;
-	-webkit-animation-name: slideInImage;
+	animation-fill-mode: both;
+	animation-iteration-count: 1;
+	animation-direction: normal;
+	-webkit-animation-name: slideOutImageAnim;
 	-webkit-animation-duration: 0.5s;
-	-webkit-animation-fill-mode: forwards;
+	-webkit-animation-fill-mode: both;
+	-webkit-animation-iteration-count: 1;
+	-webkit-animation-direction: normal;
 }
 	
-@keyframes slideInImage {
+@keyframes slideInImageAnim {
 	0% { transform: translateX(100%); }
 	100% { transform: translateX(0%); }
 }
 
-@-webkit-keyframes slideInImage {
+@-webkit-keyframes slideInImageAnim {
 	0% { -webkit-transform: translateX(100%); }
 	100% { -webkit-transform: translateX(0%); }
 }
 	
-@keyframes slideOutImage {
+@keyframes slideOutImageAnim {
 	0% { transform: translateX(0%); }
 	100% { transform: translateX(-100%); }
 }
 
-@-webkit-keyframes slideOutImage {
+@-webkit-keyframes slideOutImageAnim {
 	0% { -webkit-transform: translateX(0%); }
 	100% { -webkit-transform: translateX(-100%); }
 }

@@ -5,6 +5,6 @@ var images = [
 ];
 function startFunction(){
 	setMenuBarClick();
-	setGallery(document.getElementById("bannerImg"), document.getElementById("bannerImg2"), images, 10);
+	setGallery(document.getElementById("bannerImg"), document.getElementById("bannerImg2"), images, 2);
 }
 document.addEventListener("DOMContentLoaded", startFunction);

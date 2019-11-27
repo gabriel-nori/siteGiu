@@ -23,15 +23,15 @@ function setGallery(firstImage, secondImage, imagesIn, intervalIn){
 	}
 }
 function changeImages(){
-	nextImage.className = "hidden";
 	let holder = actualImage;
+	nextImage.className = "hidden";
 	actual += 1;
 	if(actual > maxIndex){
 		actual = 0
 	}
 	nextImage.src = images[actual];
-	actualImage.className = "slide-out";
-	nextImage.className = "slide-in";
+	actualImage.className = "slideOutImage";
+	nextImage.className = "slideInImage";
 	actualImage = nextImage;
 	nextImage = holder;
 }
